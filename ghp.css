@@ -1,0 +1,108 @@
+body {font-family: "Lato", sans-serif}
+
+.my_colored_box {
+  background-color:#416CC2;
+}
+
+ul {
+  text-align: left;
+  list-style-type: circle;
+}
+
+.my_horizontal_ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  background-color: #FFFFFF;
+  list-style-type: none;
+}
+
+.my_horizontal_li {
+  float: left;
+  flex: 1;
+}
+.my_horizontal_li a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+
+.my_horizontal_li a:hover {
+  background-color: #416CC2;
+}
+
+li a {
+  text-decoration: none;
+}
+
+
+
+.blue_hover:hover {
+  background-color: #416CC2;
+}
+
+@media only screen and (min-width: 300px) {
+  .my_horizontal_li a {
+    padding: 4px;
+  }
+
+  .my_icon {
+      width: 18px;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  .my_horizontal_li a {
+    padding: 6px;
+  }
+
+  .my_icon {
+      width: 22px;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .my_horizontal_li a {
+    padding: 8px;
+  }
+
+  .my_icon {
+      width: 26px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .my_horizontal_li a {
+    padding: 10px;
+  }
+
+  .my_icon {
+      width: 30px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .my_horizontal_li a {
+    padding: 12px;
+  }
+
+  .my_icon {
+      width: 34px;
+  }
+}
+
+.row {
+  display: flex;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.w3-bar-item:hover {
+  background-color: #416CC2 !important;
+}

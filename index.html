@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Erwan Mahe</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./ghp.css">
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#sec_about" class="w3-bar-item w3-button w3-padding-large">ABOUT</a>
+    <a href="#sec_projects" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROJECTS</a>
+    <a href="#sec_publis" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PUBLICATIONS</a>
+    <a href="#sec_contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#sec_about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+  <a href="#sec_projects" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PROJECTS</a>
+  <a href="#sec_publis" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PUBLICATIONS</a>
+  <a href="#sec_contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- About -->
+  <div class="w3-black">
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="sec_about">
+    <h2 class="w3-wide w3-center">ABOUT</h2>    
+    <div class="w3-row">
+    <div class="w3-half w3-container">
+        <img src="./files/profile_pic.png" alt="photo" width="70%">
+        <h2>Erwan Mahé</h2>
+        
+    </div>
+    <div class="w3-half w3-container">
+    <p>I obtained my PhD in Computer Science under the supervision of 
+    <a href="https://dblp.org/pid/31/1845.html">Pascale Le Gall</a>
+    and 
+    <a href="https://dblp.org/pid/23/6032.html">Christophe Gaston</a>
+    in the
+    <a href="http://logimas.mics.centralesupelec.fr/">LogiMICS</a> team of the
+    <a href="http://mics.centralesupelec.fr/en">MICS</a> laboratory at
+    <a href="https://www.centralesupelec.fr/">CentraleSupélec</a>.
+    My thesis revolved around the modelisation of distributed behaviors and their formal verification and was defended on the 15th of July 2021.
+        I'm starting a postdoctoral research mission at CEA Saclay in October 2021.
+
+	 <div class="row">
+      <div class="column">
+        <h3>Interests</h3>
+      </div>
+      <div class="column">
+        <ul>
+          <li>Formal languages</li>
+          <li>Distributed systems</li>
+          <li>Process calculus</li>
+          <li>Interactions</li>
+          <li>Term rewriting</li>
+        </ul>
+      </div>
+    </div>
+      
+    <ul class="my_horizontal_ul">
+          <li class="my_horizontal_li"><a href="./files/cv_public.pdf">
+              <img class="my_icon" src="./icons/cv.svg" alt="photo">
+              </a>
+          </li>
+          <li class="my_horizontal_li"><a href="https://github.com/erwanM974">
+              <img class="my_icon" src="./icons/github.svg" alt="photo">
+              </a>
+          </li>
+          <li class="my_horizontal_li"><a href="https://dblp.org/pid/252/5079.html">
+              <img class="my_icon" src="./icons/dblp.svg" alt="photo">
+              </a>
+          </li>
+          <li class="my_horizontal_li"><a href="https://orcid.org/0000-0002-5322-4337">
+              <img class="my_icon" src="./icons/orcid.svg" alt="photo">
+              </a>
+          </li>
+          <li class="my_horizontal_li"><a href="https://fr.linkedin.com/in/maheerwan">
+              <img class="my_icon" src="./icons/linkedin.svg" alt="photo">
+              </a>
+          </li>
+        </ul>
+    
+    </div>
+    
+    </div>
+    
+    </div>
+
+  </div>
+
+  <!-- Projects -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="sec_projects">
+      <h2 class="w3-wide w3-center">PROJECTS</h2>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+      
+        <div class="w3-half w3-margin-bottom">
+          <img src="./files/hibou_logo.png" alt="HIBOU" style="height:150px" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>HIBOU</b></p>
+            <p class="w3-opacity">2018-2021</p>
+            <p>Execute, animate &#38 analyse distributed behaviors against graphical interaction models.</p>
+            <ul class="my_horizontal_ul">
+              <li class="my_horizontal_li"><a href="https://github.com/erwanM974/hibou_label">
+                <img class="my_icon" src="./icons/github.svg" alt="photo">
+              </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="w3-half w3-margin-bottom">
+          <img src="./files/hiboux_logo.png" alt="HIBOUX" style="height:150px" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>HIBOUX</b></p>
+            <p class="w3-opacity">2020-2021</p>
+            <p>Fork &#38 extension of HIBOU to models with data &#38 time.</p>
+            <ul class="my_horizontal_ul">
+              <li class="my_horizontal_li"><a href="https://github.com/erwanM974/hibou_efm">
+                <img class="my_icon" src="./icons/github.svg" alt="photo">
+              </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+  </div>
+  
+  <!-- Publications -->
+  <div class="w3-black" id="sec_publis">
+  <div class="w3-container w3-content w3-padding-64 w3-center" style="max-width:800px">
+    <h2 class="w3-wide">PUBLICATIONS</h2>
+
+    <ul>
+        <li>
+            <b>My thesis:</b> Erwan Mahe.
+            <i>An operational semantics of interactions for verifying partially observed executions of distributed systems.</i>
+            <a href="./files/thesis_emahe.pdf">
+            <img src="./icons/pdf_icon_white.svg" alt="photo" width="30px">
+        </a>
+        </li>
+      <li>
+        Erwan Mahe, Boutheina Bannour, Christophe Gaston, Arnault Lapitre, Pascale Le Gall.
+        <i>A small-step approach to multi-trace checking against interactions.</i>
+        <b>SAC2021</b> <a href="https://dl.acm.org/doi/10.1145/3412841.3442054">
+        <img src="./icons/link.svg" alt="photo" width="30px">
+      </a>
+      </li>
+      <li>
+        Erwan Mahe, Christophe Gaston, Pascale Le Gall.
+        <i>Revisiting Semantics of Interactions for Trace Validity Analysis.</i>
+        <b>FASE2020</b> <a href="https://link.springer.com/chapter/10.1007%2F978-3-030-45234-6_24">
+        <img src="./icons/link.svg" alt="photo" width="30px">
+      </a>
+      </li>
+    </ul>
+  </div>
+  </div>
+
+  <!-- Contact -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="sec_contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Feel free to contact me on the following address (google mail service)</i></p>
+    <i class="fa fa-envelope" style="width:30px"> </i> erwan [dot] mahe [dot] contact [at] [...]<br>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
